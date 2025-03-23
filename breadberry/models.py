@@ -19,9 +19,10 @@ class Category(models.Model):
 class Position(models.Model):
     title = models.CharField(max_length=50, verbose_name='Название')
     description = models.CharField(max_length=100, verbose_name='Описание', **NULLABLE)
-    category = models.ForeignKey(Category, on_delete=models.CASCADE, verbose_name='Категория', **NULLABLE)
+    category = models.ForeignKey(Category, related_name='position', on_delete=models.CASCADE, verbose_name='Категория', **NULLABLE)
     price = models.FloatField(verbose_name='Цена')
     image = models.ImageField(verbose_name='Фотография', **NULLABLE)
+    is_popular = models.BooleanField(default=False, verbose_name='Популярное')
 
     def __str__(self):
         return f"{self.title}, {self.description}, {self.category}"

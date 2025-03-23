@@ -6,5 +6,6 @@ from breadberry.views import *
 app_name = BreadberryConfig.name
 
 urlpatterns = [
-    path('', home, name='base')
+    path('', home, name='base'),
+    path('breakfast_list/', breakfast_list, name='breakfast')
 ]
