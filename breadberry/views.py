@@ -6,7 +6,7 @@ from breadberry.models import Category, Position
 def home(request):
     position = Position.objects.filter(is_popular=True)
     context = {'position': position}
-    return render(request, 'breadberry/base.html', context)
+    return render(request, 'breadberry/popular.html', context)
 
 
 def breakfast_list(request):
@@ -27,3 +27,13 @@ def drink_list(request):
         drink = []
     context = {'drink': drink}
     return render(request, 'breadberry/drink_list.html', context)
+
+
+def dessert_list(request):
+    dessert = Category.objects.filter(title='Десерты').first()
+    if dessert:
+        dessert = dessert.position.all()
+    else:
+        dessert = []
+    context = {'desserts': dessert}
+    return render(request, 'breadberry/dessert_list.html', context)

@@ -9,4 +9,5 @@ urlpatterns = [
     path('', home, name='base'),
     path('breakfast_list/', breakfast_list, name='breakfast'),
     path('drink_list/', drink_list, name='drink'),
+    path('dessert_list/', dessert_list, name='dessert'),
 ]
