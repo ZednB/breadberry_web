@@ -17,3 +17,13 @@ def breakfast_list(request):
         breakfast = []
     context = {'breakfast': breakfast}
     return render(request, 'breadberry/breakfast_list.html', context)
+
+
+def drink_list(request):
+    drink = Category.objects.filter(title='Напитки').first()
+    if drink:
+        drink = drink.position.all()
+    else:
+        drink = []
+    context = {'drink': drink}
+    return render(request, 'breadberry/drink_list.html', context)

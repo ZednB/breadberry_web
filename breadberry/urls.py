@@ -7,5 +7,6 @@ app_name = BreadberryConfig.name
 
 urlpatterns = [
     path('', home, name='base'),
-    path('breakfast_list/', breakfast_list, name='breakfast')
+    path('breakfast_list/', breakfast_list, name='breakfast'),
+    path('drink_list/', drink_list, name='drink'),
 ]
