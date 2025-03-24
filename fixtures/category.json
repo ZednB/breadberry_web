@@ -1,0 +1,74 @@
+[
+  {
+    "model": "breadberry.category",
+    "pk": 3,
+    "fields": {
+      "title": "Завтраки",
+      "description": null,
+      "image": ""
+    }
+  },
+  {
+    "model": "breadberry.category",
+    "pk": 4,
+    "fields": {
+      "title": "Напитки",
+      "description": null,
+      "image": ""
+    }
+  },
+  {
+    "model": "breadberry.category",
+    "pk": 5,
+    "fields": {
+      "title": "Салаты",
+      "description": null,
+      "image": ""
+    }
+  },
+  {
+    "model": "breadberry.category",
+    "pk": 6,
+    "fields": {
+      "title": "Горячее",
+      "description": null,
+      "image": ""
+    }
+  },
+  {
+    "model": "breadberry.category",
+    "pk": 7,
+    "fields": {
+      "title": "Садж",
+      "description": null,
+      "image": ""
+    }
+  },
+  {
+    "model": "breadberry.category",
+    "pk": 8,
+    "fields": {
+      "title": "Стейки",
+      "description": null,
+      "image": ""
+    }
+  },
+  {
+    "model": "breadberry.category",
+    "pk": 9,
+    "fields": {
+      "title": "Пасты",
+      "description": null,
+      "image": ""
+    }
+  },
+  {
+    "model": "breadberry.category",
+    "pk": 10,
+    "fields": {
+      "title": "Фастфуд",
+      "description": null,
+      "image": ""
+    }
+  }
+]

@@ -1,0 +1,890 @@
+[
+  {
+    "model": "breadberry.position",
+    "pk": 6,
+    "fields": {
+      "title": "Завтрак \"Горский\"",
+      "description": null,
+      "category": 3,
+      "price": 380.0,
+      "image": "",
+      "is_popular": true
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 7,
+    "fields": {
+      "title": "Омлет с сосисками",
+      "description": null,
+      "category": 3,
+      "price": 320.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 8,
+    "fields": {
+      "title": "Боул с мясом",
+      "description": null,
+      "category": 3,
+      "price": 450.0,
+      "image": "",
+      "is_popular": true
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 9,
+    "fields": {
+      "title": "Сырники",
+      "description": null,
+      "category": 3,
+      "price": 320.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 10,
+    "fields": {
+      "title": "Сырные шарики",
+      "description": null,
+      "category": 3,
+      "price": 290.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 11,
+    "fields": {
+      "title": "Шампиньоны по грузински",
+      "description": null,
+      "category": 3,
+      "price": 390.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 12,
+    "fields": {
+      "title": "Свежий салат",
+      "description": null,
+      "category": 5,
+      "price": 320.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 13,
+    "fields": {
+      "title": "Цезарь с курицей",
+      "description": null,
+      "category": 5,
+      "price": 390.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 14,
+    "fields": {
+      "title": "Цезарь с креветками",
+      "description": null,
+      "category": 5,
+      "price": 420.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 15,
+    "fields": {
+      "title": "Цезарь по грузински",
+      "description": null,
+      "category": 5,
+      "price": 390.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 16,
+    "fields": {
+      "title": "Салат с хрустящими баклажанами",
+      "description": null,
+      "category": 5,
+      "price": 390.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 17,
+    "fields": {
+      "title": "Греческий салат",
+      "description": null,
+      "category": 5,
+      "price": 350.0,
+      "image": "",
+      "is_popular": true
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 18,
+    "fields": {
+      "title": "Чеченский суп",
+      "description": null,
+      "category": 6,
+      "price": 390.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 19,
+    "fields": {
+      "title": "Том-ям",
+      "description": null,
+      "category": 6,
+      "price": 560.0,
+      "image": "",
+      "is_popular": true
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 20,
+    "fields": {
+      "title": "Чечевичный суп",
+      "description": null,
+      "category": 6,
+      "price": 280.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 21,
+    "fields": {
+      "title": "Мясо с овощами",
+      "description": null,
+      "category": 6,
+      "price": 570.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 22,
+    "fields": {
+      "title": "Курица с овощами",
+      "description": null,
+      "category": 6,
+      "price": 490.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 23,
+    "fields": {
+      "title": "Бефстроганов",
+      "description": null,
+      "category": 6,
+      "price": 550.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 24,
+    "fields": {
+      "title": "Мясо по швейцарски",
+      "description": null,
+      "category": 6,
+      "price": 580.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 25,
+    "fields": {
+      "title": "Жаркое из курицы",
+      "description": null,
+      "category": 6,
+      "price": 450.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 26,
+    "fields": {
+      "title": "Курица терияки",
+      "description": null,
+      "category": 6,
+      "price": 520.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 27,
+    "fields": {
+      "title": "Мясо по тайски",
+      "description": null,
+      "category": 6,
+      "price": 650.0,
+      "image": "",
+      "is_popular": true
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 28,
+    "fields": {
+      "title": "Жаркое по домашнему",
+      "description": null,
+      "category": 6,
+      "price": 590.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 29,
+    "fields": {
+      "title": "Мясо по французски",
+      "description": null,
+      "category": 6,
+      "price": 560.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 30,
+    "fields": {
+      "title": "Говяжьи щечки",
+      "description": null,
+      "category": 6,
+      "price": 620.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 31,
+    "fields": {
+      "title": "Чашашули",
+      "description": null,
+      "category": 6,
+      "price": 590.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 32,
+    "fields": {
+      "title": "Чкмерули",
+      "description": null,
+      "category": 6,
+      "price": 490.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 33,
+    "fields": {
+      "title": "Оджахури с курицей",
+      "description": null,
+      "category": 6,
+      "price": 530.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 34,
+    "fields": {
+      "title": "Оджахури с бараниной",
+      "description": null,
+      "category": 6,
+      "price": 620.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 35,
+    "fields": {
+      "title": "Садж ассорти",
+      "description": null,
+      "category": 7,
+      "price": 1500.0,
+      "image": "",
+      "is_popular": true
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 36,
+    "fields": {
+      "title": "Садж куриный",
+      "description": null,
+      "category": 7,
+      "price": 1100.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 37,
+    "fields": {
+      "title": "Садж с говядиной",
+      "description": null,
+      "category": 7,
+      "price": 1200.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 38,
+    "fields": {
+      "title": "Стейк из семги",
+      "description": null,
+      "category": 8,
+      "price": 880.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 39,
+    "fields": {
+      "title": "Стейк куриный",
+      "description": null,
+      "category": 8,
+      "price": 650.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 40,
+    "fields": {
+      "title": "Стейк говяжий",
+      "description": null,
+      "category": 8,
+      "price": 880.0,
+      "image": "",
+      "is_popular": true
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 41,
+    "fields": {
+      "title": "Спагетти Болоньезе",
+      "description": null,
+      "category": 9,
+      "price": 380.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 42,
+    "fields": {
+      "title": "Парпаделле с лососем",
+      "description": null,
+      "category": 9,
+      "price": 590.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 43,
+    "fields": {
+      "title": "Фетучини с курицей",
+      "description": null,
+      "category": 9,
+      "price": 390.0,
+      "image": "",
+      "is_popular": true
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 44,
+    "fields": {
+      "title": "Хачапури по Имеретински",
+      "description": null,
+      "category": 10,
+      "price": 395.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 45,
+    "fields": {
+      "title": "Пицца грибная",
+      "description": null,
+      "category": 10,
+      "price": 600.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 46,
+    "fields": {
+      "title": "Пицца мясная",
+      "description": null,
+      "category": 10,
+      "price": 600.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 47,
+    "fields": {
+      "title": "Пицца куриная",
+      "description": null,
+      "category": 10,
+      "price": 600.0,
+      "image": "",
+      "is_popular": true
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 48,
+    "fields": {
+      "title": "Пицца пепперони",
+      "description": null,
+      "category": 10,
+      "price": 600.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 49,
+    "fields": {
+      "title": "Гиро на тарелке",
+      "description": null,
+      "category": 10,
+      "price": 390.0,
+      "image": "",
+      "is_popular": true
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 50,
+    "fields": {
+      "title": "Эспрессо",
+      "description": null,
+      "category": 4,
+      "price": 150.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 51,
+    "fields": {
+      "title": "Американо",
+      "description": null,
+      "category": 4,
+      "price": 150.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 52,
+    "fields": {
+      "title": "Флет Уайт",
+      "description": null,
+      "category": 4,
+      "price": 180.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 53,
+    "fields": {
+      "title": "Капучино",
+      "description": null,
+      "category": 4,
+      "price": 210.0,
+      "image": "",
+      "is_popular": true
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 54,
+    "fields": {
+      "title": "Латте",
+      "description": null,
+      "category": 4,
+      "price": 230.0,
+      "image": "",
+      "is_popular": true
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 55,
+    "fields": {
+      "title": "Раф",
+      "description": null,
+      "category": 4,
+      "price": 250.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 56,
+    "fields": {
+      "title": "Раф Урбеч",
+      "description": null,
+      "category": 4,
+      "price": 330.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 57,
+    "fields": {
+      "title": "Горячий шоколад",
+      "description": null,
+      "category": 4,
+      "price": 210.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 58,
+    "fields": {
+      "title": "Фраппе",
+      "description": null,
+      "category": 4,
+      "price": 250.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 59,
+    "fields": {
+      "title": "Кофе с урбечом",
+      "description": null,
+      "category": 4,
+      "price": 330.0,
+      "image": "",
+      "is_popular": true
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 60,
+    "fields": {
+      "title": "Фреш Ананас",
+      "description": null,
+      "category": 4,
+      "price": 500.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 61,
+    "fields": {
+      "title": "Фреш Апельсин",
+      "description": null,
+      "category": 4,
+      "price": 400.0,
+      "image": "",
+      "is_popular": true
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 62,
+    "fields": {
+      "title": "Фреш Яблоко",
+      "description": null,
+      "category": 4,
+      "price": 400.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 63,
+    "fields": {
+      "title": "Фреш Микс",
+      "description": null,
+      "category": 4,
+      "price": 400.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 64,
+    "fields": {
+      "title": "Молочный коктейль",
+      "description": null,
+      "category": 4,
+      "price": 250.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 65,
+    "fields": {
+      "title": "Клубничный коктейль",
+      "description": null,
+      "category": 4,
+      "price": 250.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 66,
+    "fields": {
+      "title": "Шоколадный коктейль",
+      "description": null,
+      "category": 4,
+      "price": 250.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 67,
+    "fields": {
+      "title": "Банановый коктейль",
+      "description": null,
+      "category": 4,
+      "price": 250.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 68,
+    "fields": {
+      "title": "Лимонад Ягодный",
+      "description": null,
+      "category": 4,
+      "price": 250.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 69,
+    "fields": {
+      "title": "Лимонад Манго-Маракуйя",
+      "description": null,
+      "category": 4,
+      "price": 250.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 70,
+    "fields": {
+      "title": "Лимонад Цитрусовый",
+      "description": null,
+      "category": 4,
+      "price": 250.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 71,
+    "fields": {
+      "title": "Лимонад Синее Яблоко",
+      "description": null,
+      "category": 4,
+      "price": 250.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 72,
+    "fields": {
+      "title": "Лимонад Груша-Имбирь",
+      "description": null,
+      "category": 4,
+      "price": 250.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 73,
+    "fields": {
+      "title": "Мохито Клубничный",
+      "description": null,
+      "category": 4,
+      "price": 250.0,
+      "image": "",
+      "is_popular": true
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 74,
+    "fields": {
+      "title": "Мохито Классический",
+      "description": null,
+      "category": 4,
+      "price": 250.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 75,
+    "fields": {
+      "title": "Облепиховый Чай",
+      "description": null,
+      "category": 4,
+      "price": 320.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 76,
+    "fields": {
+      "title": "Чай Малина-Имбирь",
+      "description": null,
+      "category": 4,
+      "price": 320.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 77,
+    "fields": {
+      "title": "Чай Смородина-Лайм",
+      "description": null,
+      "category": 4,
+      "price": 320.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 78,
+    "fields": {
+      "title": "Имбирный Чай",
+      "description": null,
+      "category": 4,
+      "price": 320.0,
+      "image": "",
+      "is_popular": false
+    }
+  },
+  {
+    "model": "breadberry.position",
+    "pk": 79,
+    "fields": {
+      "title": "Чай Ананас-Маракуйя",
+      "description": null,
+      "category": 4,
+      "price": 320.0,
+      "image": "",
+      "is_popular": false
+    }
+  }
+]

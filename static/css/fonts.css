@@ -1,0 +1,17 @@
+/* Подключение Dealerplate California */
+@font-face {
+    font-family: 'Dealerplate California';
+    src: url('/static/fonts/ofont.ru_Dealerplate.ttf') format('woff2'),
+         url('/static/fonts/ofont.ru_Dealerplate.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Подключение Borders Divide But Hearts Shall */
+@font-face {
+    font-family: 'Borders Divide But Hearts Shall';
+    src: url('/static/fonts/BordersDivideButHeartsShall[RUSbyPenka220]-Regular.ttf') format('woff2'),
+         url('/static/fonts/BordersDivideButHeartsShall[RUSbyPenka220]-Regular.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
