@@ -21,9 +21,11 @@
                             <span>{{ salad.title }}</span>
                             <span class="text-primary">{{ salad.price }}</span>
                         </h5>
+                        {% if salad.description is not None %}
                         <small class="fst-italic mt-2"
                                style="font-family: 'Borders Divide But Hearts Shall', serif;">{{ salad.description }}
                         </small>
+                        {% endif %}
                     </div>
 
                 </div>

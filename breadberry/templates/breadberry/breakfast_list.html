@@ -23,9 +23,11 @@
                             <span>{{ break.title }}</span>
                             <span class="text-primary">{{ break.price }}</span>
                         </h5>
+                        {% if break.description is not None %}
                         <small class="fst-italic mt-2"
                                style="font-family: 'Borders Divide But Hearts Shall', serif;">{{ break.description }}
                         </small>
+                        {% endif %}
                     </div>
 
                 </div>

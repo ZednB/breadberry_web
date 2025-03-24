@@ -21,9 +21,11 @@
                             <span>{{ saj.title }}</span>
                             <span class="text-primary">{{ saj.price }}</span>
                         </h5>
+                        {% if saj.description is not None %}
                         <small class="fst-italic mt-2"
                                style="font-family: 'Borders Divide But Hearts Shall', serif;">{{ saj.description }}
                         </small>
+                        {% endif %}
                     </div>
 
                 </div>

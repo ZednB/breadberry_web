@@ -21,9 +21,11 @@
                             <span>{{ fastfood.title }}</span>
                             <span class="text-primary">{{ fastfood.price }}</span>
                         </h5>
+                        {% if fastfood.description is not None %}
                         <small class="fst-italic mt-2"
                                style="font-family: 'Borders Divide But Hearts Shall', serif;">{{ fastfood.description }}
                         </small>
+                        {% endif %}
                     </div>
 
                 </div>

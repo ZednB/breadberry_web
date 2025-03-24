@@ -22,9 +22,11 @@
                             <span>{{ pos.title }}</span>
                             <span class="text-primary">{{ pos.price }}</span>
                         </h5>
+                        {% if pos.description is not None %}
                         <small class="fst-italic mt-2"
                                style="font-family: 'Borders Divide But Hearts Shall', serif;">{{ pos.description }}
                         </small>
+                        {% endif %}
                     </div>
 
                 </div>
