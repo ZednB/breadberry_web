@@ -15,7 +15,7 @@ services:
     build: .
     command: sh -c "sleep 10 && gunicorn --bind 0.0.0.0:8000 config.wsgi:application"
     ports:
-      - '8000:8000'
+      - "${PORT}:${PORT}"
     depends_on:
       - db
     env_file:
