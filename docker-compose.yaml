@@ -13,7 +13,7 @@ services:
       - .env
   app:
     build: .
-    command: sh -c "sleep 10 && gunicorn --bind 0.0.0.0:8000 config.wsgi:application --workers 1"
+    command: sh -c "sleep 10 && gunicorn --workers=2 --worker-class=gevent --bind 0.0.0.0:$PORT breadberry_web.wsgi:application"
     ports:
       - "${PORT}:${PORT}"
     depends_on:
