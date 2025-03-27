@@ -13,7 +13,7 @@ services:
       - .env
   app:
     build: .
-    command: sh -c "sleep 10 && gunicorn --bind 0.0.0.0:8000 config.wsgi:application"
+    command: sh -c "sleep 10 && gunicorn --bind 0.0.0.0:8000 config.wsgi:application --workers 1"
     ports:
       - "${PORT}:${PORT}"
     depends_on:
